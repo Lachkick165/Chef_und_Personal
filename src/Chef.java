@@ -11,8 +11,8 @@ public class Chef{
     public void neuesPersonal(Personal einP){
         if (this.pers01 == null){
             this.pers01 = einP;
-        }else if(this.pers02 == null){
-            this.pers02 = einP;
         }
+
+        this.pers02 = einP;
     }
 }
